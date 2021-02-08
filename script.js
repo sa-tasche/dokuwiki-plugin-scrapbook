@@ -6,6 +6,11 @@
  * @param {string} edid the editor's ID
  * @return {string}
  */
+// Copyright © 2021 Sara Tasche <mitgedanken>
+//
+// Licensed under the ISC License;
+// you may not use this file except in compliance with the License.
+
 function addBtnActionPlugin_scrapbook($btn, props, edid) {
     var pickerid = 'picker' + (pickercounter++);
     var $picker = jQuery(createPicker(pickerid, [], edid))
